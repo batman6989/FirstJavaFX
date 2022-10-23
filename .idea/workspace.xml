@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="891b5734-bea4-42d8-ba56-416533c188ae" name="Changes" comment="First GUI using JavaFx">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/poe.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/Fileconverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/Fileconverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/TextAnaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/TextAnaView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/uianalzyer/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <workItem from="1665804682894" duration="1040000" />
       <workItem from="1666137302007" duration="6556000" />
       <workItem from="1666148562530" duration="4985000" />
-      <workItem from="1666466376743" duration="8170000" />
+      <workItem from="1666466376743" duration="11787000" />
     </task>
     <task id="LOCAL-00001" summary="First GUI using JavaFx">
       <created>1665805616643</created>
@@ -103,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666318861567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First GUI using JavaFx">
+      <created>1666491245532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666491245532</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First GUI using JavaFx">
+      <created>1666491320509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666491320509</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

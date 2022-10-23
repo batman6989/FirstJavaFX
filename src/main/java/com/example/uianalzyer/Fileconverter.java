@@ -6,9 +6,9 @@ import java.io.File;
 import java.lang.reflect.Array;
 import java.io.FileNotFoundException;
 public class Fileconverter {
-    public static ArrayList<String> array;
-    public static List<String> sort(List<String> clean) {
-        Collections.sort(clean, new Comparator<String>() {
+    public static ArrayList<String> wordArray;
+    public static List<String> sort(List<String> sortedWord) {
+        Collections.sort(sortedWord, new Comparator<String>() {
             public int compare(String o1, String o2) {
                 return extractInt(o2) - extractInt(o1);
             }
@@ -17,7 +17,7 @@ public class Fileconverter {
                 return num.isEmpty() ? 0 : Integer.parseInt(num);
             }
         });
-        return clean;
+        return sortedWord;
     }
     public static void textT(File poem, int resultsRange) throws FileNotFoundException {
         Scanner reader = new Scanner(poem);
@@ -32,7 +32,6 @@ public class Fileconverter {
                 reading = reading.replaceAll("[^a-zA-Z0-9\\s+]", "");
                 String broken[] = reading.split(" ");
                 List<String> splitList = new ArrayList<String>();
-
                 splitList = Arrays.asList(broken);
 
             for (String s : splitList) {
@@ -56,13 +55,12 @@ public class Fileconverter {
         if (resultsRange > frequencyCount.size()) {
             resultsRange = frequencyCount.size();
         }
-    if (resultsRange <= 0) {
+        if (resultsRange <= 0) {
             resultsRange = 1;
         }
         Integer counter = 1;
-        System.out.println();
-        System.out.println("Top " + resultsRange + " Results found in the html document");
-        System.out.println();
+        System.out.println(resultsRange + " Results found in the poem");
+
 
         ArrayList<String> copy = new ArrayList<String>();
         for (int i = 0; i < resultsRange; i++) {
@@ -71,7 +69,7 @@ public class Fileconverter {
             copy.add(counterString + ". " + frequencyCount.get(i));
             counter++;
         }
-        array = copy;
+        wordArray = copy;
         reader.close();
     }
 }
