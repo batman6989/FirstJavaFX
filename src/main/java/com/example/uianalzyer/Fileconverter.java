@@ -59,7 +59,7 @@ public class Fileconverter {
             resultsRange = 1;
         }
         Integer counter = 1;
-        System.out.println("Results of (range) in the poem");
+        System.out.println("Results of (range) in the poem: ");
 
 
         ArrayList<String> copy = new ArrayList<String>();
