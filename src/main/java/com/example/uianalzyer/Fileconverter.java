@@ -59,11 +59,11 @@ public class Fileconverter {
             resultsRange = 1;
         }
         Integer counter = 1;
-        System.out.println(resultsRange + " Results found in the poem");
+        System.out.println("Results of (range) in the poem");
 
 
         ArrayList<String> copy = new ArrayList<String>();
-        for (int i = 0; i < resultsRange; i++) {
+        for (int i = 0; i < resultsRange - 1; i++) {
             String counterString = counter.toString();
             System.out.println(counterString + ". " + frequencyCount.get(i));
             copy.add(counterString + ". " + frequencyCount.get(i));

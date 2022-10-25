@@ -23,7 +23,7 @@ import javafx.scene.layout.GridPane;
 public class TextAnaView extends Application {
     public static int range;
     public static String results;
-    public static String htmlpoem = "com/example/uianalzyer/TheRaven.html";
+    public static String htmlpoem = "C:\\Users\\Johnn\\IdeaProjects\\UIAnalzyer\\src\\main\\java\\com\\example\\uianalzyer\\TheRaven.html";
     @Override
     public void start(Stage stage) {
         try {

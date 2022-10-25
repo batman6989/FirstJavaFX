@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="891b5734-bea4-42d8-ba56-416533c188ae" name="Changes" comment="First GUI using JavaFx">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/TestingRanges/com/example/uianalzyer/TestRangesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/TextAnaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/TextAnaView.java" afterDir="false" />
     </list>
@@ -20,6 +21,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,12 +48,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "last_opened_file_path": "C:/Users/Johnn/IdeaProjects/UIAnalzyer/src/main/java/com/example/uianalzyer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propCompiler"
@@ -61,7 +66,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Johnn\IdeaProjects\UIAnalzyer\src\main\java\com\example\uianalzyer" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.uianalzyer" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.uianalzyer" />
     </key>
   </component>
@@ -78,7 +89,7 @@
       <workItem from="1665804682894" duration="1040000" />
       <workItem from="1666137302007" duration="6556000" />
       <workItem from="1666148562530" duration="4985000" />
-      <workItem from="1666466376743" duration="15652000" />
+      <workItem from="1666466376743" duration="18362000" />
     </task>
     <task id="LOCAL-00001" summary="First GUI using JavaFx">
       <created>1665805616643</created>
@@ -122,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666545794813</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="First GUI using JavaFx">
+      <created>1666657362412</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666657362413</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
