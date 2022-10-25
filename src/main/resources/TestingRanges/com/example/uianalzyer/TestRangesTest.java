@@ -20,6 +20,12 @@ class TestRangesTest {
     }
 
     @Test
-    void main() {
+    public void test2() throws FileNotFoundException {
+        File poem = new File("C:\\Users\\Johnn\\IdeaProjects\\UIAnalzyer\\src\\main\\java\\com\\example\\uianalzyer\\TheRaven.html");
+
+        int range = 125;
+
+        Fileconverter.textT(poem,range);
+
     }
 }

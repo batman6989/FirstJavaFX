@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891b5734-bea4-42d8-ba56-416533c188ae" name="Changes" comment="First GUI using JavaFx" />
+    <list default="true" id="891b5734-bea4-42d8-ba56-416533c188ae" name="Changes" comment="First GUI using JavaFx">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/TestingRanges/com/example/uianalzyer/TestRangesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestingRanges/com/example/uianalzyer/TestRangesTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
       <workItem from="1665804682894" duration="1040000" />
       <workItem from="1666137302007" duration="6556000" />
       <workItem from="1666148562530" duration="4985000" />
-      <workItem from="1666466376743" duration="18760000" />
+      <workItem from="1666466376743" duration="20024000" />
     </task>
     <task id="LOCAL-00001" summary="First GUI using JavaFx">
       <created>1665805616643</created>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666662316607</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="First GUI using JavaFx">
+      <created>1666662490024</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666662490024</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
