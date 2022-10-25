@@ -23,7 +23,7 @@ import javafx.scene.layout.GridPane;
 public class TextAnaView extends Application {
     public static int range;
     public static String results;
-    public static String htmlpoem = "TheRaven.html";
+    public static String htmlpoem = "com/example/uianalzyer/TheRaven.html";
     @Override
     public void start(Stage stage) {
         try {
@@ -48,15 +48,13 @@ public class TextAnaView extends Application {
             stage.setTitle("UI Analyzer");
 
         Button button1 = new Button("Search This Range");
-        TextField resultsField = new TextField();
-        resultsField.setText(results);
-        resultsField.setMaxWidth(59);
+        TextField resultsoutput = new TextField();
+        resultsoutput.setMaxWidth(59);
         scene.setOnKeyReleased(new EventHandler<KeyEvent>() {
                 @Override
                 public void handle(KeyEvent eventType) {
                     System.out.println("Range number users presses: " + range);
-                    range = Integer.parseInt(resultsField.getText());
-
+                    range = Integer.parseInt(resultsoutput.getText());
                     File poem = new File(htmlpoem);
                     try {
                         Fileconverter.textT(poem, range);
@@ -67,6 +65,7 @@ public class TextAnaView extends Application {
         });
 
         TextArea output = new TextArea();
+        output.setText(results);
         output.setPrefSize(500, 400);
         button1.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -90,7 +89,7 @@ public class TextAnaView extends Application {
         rangeGrid.setHgap(10);
         rangeGrid.setPadding(new Insets(5, 5, 5, 5));
         rangeGrid.add(new Label("Enter Range of Results: "), 0, 0);
-        rangeGrid.add(resultsField, 1, 0);
+        rangeGrid.add(resultsoutput, 1, 0);
         rangeGrid.setGridLinesVisible(true);
 
 
