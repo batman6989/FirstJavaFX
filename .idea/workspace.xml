@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="891b5734-bea4-42d8-ba56-416533c188ae" name="Changes" comment="First GUI using JavaFx">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/Fileconverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/Fileconverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/TextAnaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/uianalzyer/TextAnaView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +19,9 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,6 +95,7 @@
       <workItem from="1667493108848" duration="2035000" />
       <workItem from="1668747567120" duration="1885000" />
       <workItem from="1668879921557" duration="1391000" />
+      <workItem from="1670646826779" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="First GUI using JavaFx">
       <created>1665805616643</created>
